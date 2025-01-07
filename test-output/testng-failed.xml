@@ -5,7 +5,9 @@
     <classes>
       <class name="project2025.appiumnew.AppiumBasics2025">
         <methods>
-          <include name="AppiumTest"/>
+          <include name="tearDown"/>
+          <include name="ConfigureAppium"/>
+          <include name="WifiSettingsName"/>
         </methods>
       </class> <!-- project2025.appiumnew.AppiumBasics2025 -->
     </classes>
