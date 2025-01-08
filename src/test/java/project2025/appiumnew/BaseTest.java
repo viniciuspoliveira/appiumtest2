@@ -22,9 +22,9 @@ public class BaseTest {
 	
 	{
 	
-	AppiumDriverLocalService service = new AppiumServiceBuilder().withAppiumJS(new File("//usr//local//lib//node_modules//appium//build//lib//main.js"))
+	 service = new AppiumServiceBuilder().withAppiumJS(new File("//usr//local//lib//node_modules//appium//build//lib//main.js"))
 	.withIPAddress("127.0.0.1").usingPort(4723).build();
-service.start();
+//service.start();
 
 
 	UiAutomator2Options options = new UiAutomator2Options();
